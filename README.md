@@ -44,5 +44,3 @@ Players can enjoy a smooth two-player game experience directly in the browser.
 - JavaScript
 
 ---
-
-## Repository Structure
