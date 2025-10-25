@@ -1,0 +1,106 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+h1{
+    font-size: 3rem;
+    color: #004643;
+    margin: 2rem 0 0.5rem 0; /* Added 0.5rem bottom margin */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+body{
+    text-align: center;
+    background-color: #FAF8F1;
+    
+}
+.msg-container {
+    font-size: 2rem;
+    color: #004643;
+}
+.container{
+    padding-top: 1rem; /* Consolidated padding rules */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height:18vmin ;
+    width: 18vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vmin;
+    border-radius: 20px;
+    border: none;
+    background-color:#88b8ae;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.box:hover {
+    background-color: #7aa89f;
+    transform: scale(1.05);
+}
+
+#new-game {
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    border: 2px solid #292f33;
+    background-color: transparent;
+    color: #292f33;
+    font-size: 1.20rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+#new-game:hover {
+    background-color: #292f33;
+    color: white;
+    transform: translateY(-3px);
+}
+
+#reset-btn {
+    margin-top: 3rem;
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    border: 2px solid #292f33;
+    background-color: transparent;
+    color: #292f33;
+    font-size: 1.20rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+#reset-btn:hover {
+    background-color: #292f33;
+    color: white;
+    transform: translateY(-3px);
+}
+.end-game-container {
+    /* height: 20vmin; */ /* Removed fixed height for flexibility */
+    padding: 1.5rem 0; /* Consolidated padding rules */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hide {
+    display: none;
+}
