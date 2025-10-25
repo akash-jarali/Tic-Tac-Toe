@@ -28,7 +28,6 @@ Players can enjoy a smooth two-player game experience directly in the browser.
 ---
 
 ## Screenshots
-*(Optional: Add screenshots in the `images/` folder and reference them here)*
 <img width="998" height="866" alt="Screenshot 1" src="https://github.com/user-attachments/assets/eca56540-75da-4196-8189-7c8ae498d35c" />
 
 <img width="1006" height="857" alt="Screenshot 2" src="https://github.com/user-attachments/assets/0ca94a01-4ac3-401c-a70e-4221d6f518f8" />
